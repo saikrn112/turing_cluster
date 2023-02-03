@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --mail-user=apatil2@wpi.edu
+#SBATCH --mail-user=<email>@wpi.edu
 #SBATCH --mail-type=ALL
 
 #SBATCH -J test_cuda

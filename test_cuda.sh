@@ -11,8 +11,8 @@
 #SBATCH -n 4
 #SBATCH --mem=64G
 #SBATCH --gres=gpu:1
-#SBATCH -C P100
+#SBATCH -C A100
 #SBATCH -p short
-#SBATCH -t 169:00:00
+#SBATCH -t 9:00:00
 
 python3 test_cuda.py
